@@ -48,7 +48,8 @@ if prompt:
                     # Print the value field from text deltas
                     report.append(content.text.value)
                     print(content.text.value)
-                    result = "".join(report).strip()
+                    mylistreport = [item for item in report if item is not None]
+                    result = "".join(mylistreport).strip()
                     # result = result.replace("\n", "")
                     res_box.markdown(f'*{result}*')
 
