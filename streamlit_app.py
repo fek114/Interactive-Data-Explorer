@@ -16,7 +16,7 @@ st.caption("🚀 Choose your Assistant!")
 assistant_options = {
     "Genel Asistan": "asst_XYgHWyKYN1KxNWfcN9EMdn2Q",   
     "Teknik Asistan": "asst_AdifferentAssistantID",  
-    "DWH Asistan": "asst_YetAnotherAssistantId"  
+    "DWH Asistan": "asst_7QqkObtC8XXmp6ElpZLqzoLm"  
 }
 
 selected_assistant = st.radio("Choose an Assistant:", list(assistant_options.keys()))
